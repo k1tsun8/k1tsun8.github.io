@@ -34,12 +34,19 @@
             </nav>
             <mobilenav>
                 <button onclick="expandmenu()">Menu</button>
-                <a class="expandable" href="/" title="Main Page">Home</a>
-                <a class="wip expandable" href="/forecasts" title="(WIP) Forecasts">Forecasts</a>
-                <a class="expandable" href="/EWEsafety" title="EWE Safety Information">Safety</a>
-                <a class="expandable" href="/education" title="Education">Education</a>
-                <a class="expandable" href="/news" title="News">News</a>
-                <a class="expandable" href="/about" title="About the IWS">About</a>
+                <navrow>
+                    <navcol>
+                        <a class="expandable" href="/" title="Main Page">Home</a>
+                        <a class="wip expandable" href="/forecasts" title="(WIP) Forecasts">Forecasts</a>
+                        <a class="expandable" href="/EWEsafety" title="EWE Safety Information">Safety</a>
+                    </navcol>
+                    <navcol>
+                        <a class="expandable" href="/education" title="Education">Education</a>
+                        <a class="expandable" href="/news" title="News">News</a>
+                        <a class="expandable" href="/about" title="About the IWS">About</a>
+                    </navcol>
+                </navrow>
+
             </mobilenav>
             <hr class="divider" />
         </header>
@@ -54,7 +61,7 @@
                 unexpected.</p>
 
             <quote>Education saves lives.</quote>
-            <caption>(IWS Motto)</caption>
+            <qcaption>(IWS Motto)</qcaption>
 
             <p>The IWS establishes and maintains the <a href="/EWEsafety/classification_system">Classification
                     System</a> used to organize EWEs.</p>
