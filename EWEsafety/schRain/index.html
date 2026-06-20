@@ -3,6 +3,19 @@
 
 <head>
     <link rel="stylesheet" href="/static/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function expandmenu() {
+            var links = document.getElementsByClassName("expandable");
+            for (var link of links) {
+                if (link.classList.contains("expanded")) {
+                    link.classList.remove("expanded");
+                } else {
+                    link.classList.add("expanded");
+                }
+            }
+        }
+    </script>
 </head>
 
 <body>
@@ -19,6 +32,15 @@
                 <a class="wip" href="/news" title="News">News</a>
                 <a class="" href="/about" title="About the IWS">About</a>
             </nav>
+            <mobilenav>
+                <button onclick="expandmenu()">Menu</button>
+                <a class="expandable" href="/" title="Main Page">Home</a>
+                <a class="wip expandable" href="/forecasts" title="(WIP) Forecasts">Forecasts</a>
+                <a class="expandable" href="/EWEsafety" title="EWE Safety Information">Safety</a>
+                <a class="expandable" href="/education" title="Education">Education</a>
+                <a class="expandable" href="/news" title="News">News</a>
+                <a class="expandable" href="/about" title="About the IWS">About</a>
+            </mobilenav>
             <hr class="divider" />
         </header>
         <maincontent>
