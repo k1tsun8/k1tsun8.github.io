@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(0, 6, 194);
+    color: white;
+    text-align: left;
+}
+
+header logo {
+    position: relative;
+    left: 2%;
+    top: 4%;
+    height: 100%;
+    width: 100%;
+    padding-top: 0.2em;
+    display: block;
+}
+
+body {
+    background-color: rgb(148, 234, 255);
+}
+
+main {
+    width: 80%;
+    position: relative;
+    left: 10%;
+    background-color: rgb(240, 252, 255);
+    box-shadow: 5px 0 5px rgba(150, 150, 150, 30), -5px 0 5px rgba(150, 150, 150, 30);
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 1% 4%;
+}
+
+
+
+a:visited {
+    color: rgb(0, 3, 102);
+}
+
+a {
+    color: rgb(24, 31, 240);
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white !important
+}
+
+.wip {
+    color: lightgray;
+}
+
+.divider {
+    height: 2px;
+}
+
+socialnav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    gap: 3%;
+    padding: 2% 4%;
+}
+
+socialnav a {
+    text-decoration: none;
+    font-size: small;
+}
+
+maincontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    background-color: rgb(240, 252, 255);
+    color: black;
+    padding: 2% 4%;
+    min-height: 50vh;
+}
+
+#disclaimer {
+    padding: 1% 4%;
+    background: red;
+    box-shadow: 2px 2px;
+}
+
+footer h5 {
+    padding: 2% 4%;
+}
+
+
+p {
+    padding: 1em 0;
+    line-height: 1.7em;
+}
+
+ul {
+    text-indent: 1em;
+    padding: 0.5em 0;
+    left: 4%;
+    position: relative;
+}
+
+li {
+    padding: 1em 0;
+    width: 85%;
+}
+
+yell {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+h2 {
+    padding: 0.5em 0;
+}
