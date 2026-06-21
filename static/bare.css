@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'memofont';
+    src:
+        url('fonts/memofont.woff2') format('woff2'),
+        url('fonts/memofont.woff') format('woff');
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'memofont', 'Times New Roman', Times, serif;
+}
+
+user1,
+user2 {
+    display: block;
+    padding: 0.7em 0;
+}
+
+user2 {
+    color: red;
+}

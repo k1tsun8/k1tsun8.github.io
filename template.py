@@ -19,11 +19,12 @@ for html_path in all_htmls:
     file = open(html_path)
     content = file.read()
     file.close()
-    main_content = content[content.index(ot):content.index(ct)+len(ct)]
-    file = open(html_path, "w")
-    file.write(
-        template_top +
-        main_content +
-        template_bottom
-    )
-    file.close()
+    if "<!--fancy-->" not in content:
+        main_content = content[content.index(ot):content.index(ct)+len(ct)]
+        file = open(html_path, "w")
+        file.write(
+            template_top +
+            main_content +
+            template_bottom
+        )
+        file.close()
