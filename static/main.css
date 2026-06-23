@@ -186,6 +186,11 @@ smaller {
     font-style: italic;
 }
 
+subtle {
+    font-style: italic;
+    color: darkgray;
+}
+
 @media (max-width: 700px) {
     main {
         width: 94%;
