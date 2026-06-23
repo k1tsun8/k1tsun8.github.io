@@ -20,3 +20,14 @@ user2 {
 user2 {
     color: red;
 }
+
+end {
+    color: grey;
+    font-style: italic;
+}
+
+pause {
+    display: block;
+    width: 100%;
+    height: 100vh;
+}
